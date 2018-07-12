@@ -348,7 +348,7 @@ color: #777;
 .block{
 	display: block
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
 	.intro {
 		display: table;
 		width: 100%;
@@ -360,5 +360,9 @@ color: #777;
 		-moz-background-size: cover;
 		background-size: cover;
 		-o-background-size: cover;
+	}
+	.kuy{
+		position: relative;
+		top: 30px;
 	}
 }

@@ -1,0 +1,28 @@
+{
+  "name": "senyawa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adibrusydif/senyawafilms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adibrusydif/senyawafilms/issues"
+  },
+  "homepage": "https://github.com/adibrusydif/senyawafilms#readme",
+  "devDependencies": {
+    "git-scripts": "^0.2.1",
+    "surge": "^0.20.1"
+  },
+  "git": {
+    "scripts": {
+      "pre-push": "surge --project ./ --domain senyawafilms-kintan.surge.sh"
+    }
+  }
+}
